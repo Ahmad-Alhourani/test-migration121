@@ -41,7 +41,15 @@ class EventServiceProvider extends ServiceProvider
          * Auth Subscribers
          */
         \App\Listeners\Backend\Auth\User\UserEventListener::class,
-        \App\Listeners\Backend\Auth\Role\RoleEventListener::class
+        \App\Listeners\Backend\Auth\Role\RoleEventListener::class,
+
+        //start_Company_start
+        \App\Listeners\Backend\CompanyEventListener::class,
+        //end_Company_end
+
+        //start_Branch_start
+        \App\Listeners\Backend\BranchEventListener::class
+        //end_Branch_end
 
         // Do not delete me :) I'm used for auto-generation
     ];
@@ -54,6 +62,5 @@ class EventServiceProvider extends ServiceProvider
     public function boot()
     {
         parent::boot();
-
     }
 }
