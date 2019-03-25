@@ -200,8 +200,15 @@ return [
                 'id' => "Id",
                 'name1134341' => "Name",
                 'sms' => "SMS"
-            ]
+            ],
             //end_Company_end
+            //start_Branch_start
+            'branches' => [
+                'id' => "Id",
+                'name' => "Name",
+                'company_id' => "Company Name"
+            ]
+            //end_Branch_end
             // Do not delete me :) I'm used for auto-generation
         ],
 

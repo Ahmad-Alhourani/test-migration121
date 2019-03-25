@@ -134,8 +134,31 @@ return [
                 'deleted_at' => 'Deleted At',
                 'last_updated' => 'Last Update'
             ]
-        ]
+        ],
         //end_Company_end
+
+        //start_Branch_start
+        'branches' => [
+            'management' => ' Branches Management',
+            'create' => 'Create Branch',
+            'view' => 'View Branch',
+            'edit' => 'Edit Branch',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'company_id' => "Company Name",
+                'sort' => 'Sort',
+                'total' => ' Branches total| Branches total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
+        ]
+        //end_Branch_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
