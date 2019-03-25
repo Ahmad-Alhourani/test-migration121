@@ -16,6 +16,12 @@
             </li>
             {{--end_Company_end--}}
 
+        {{--start_Branch_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/branches')) }}" href=" {{ route('admin.branch.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.branches') }}</a>
+            </li>
+            {{--end_Branch_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">
