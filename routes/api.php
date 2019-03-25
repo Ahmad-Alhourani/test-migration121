@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Company_start
+Route::resource('company', 'API\CompanyAPIController');
+
+//end_Company_end
+
 //*****Do Not Delete Me
